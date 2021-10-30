@@ -42,38 +42,38 @@ public class Board extends Panel implements MouseMotionListener{
     int x=0;int y=0;
    
    
-    static Piece Wrook1=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wrook1.png");
-   static Piece Wrook2=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wrook2.png");
-   static Piece Brook1=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Brook1.png");
-   static Piece Brook2=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Brook2.png");
-   static Piece WbishopW=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/WbishopW.png");
-   static Piece WbishopB=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/WbishopB.png");
-   static Piece BbishopB=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/BbishopB.png");
-   static Piece BbishopW=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/BbishopW.png");
-  static Piece  Wking=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wking.png");
-   static Piece Bking=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Bking.png");
-   static Piece Wqueen=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wqueen.png");
-  static Piece  Bqueen=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Bqueen.png");
-   static Piece Wknight1=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wknight1.png");
-   static Piece Wknight2=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wknight2.png");
-   static Piece Bknight1=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Bknight1.png");
-   static Piece Bknight2=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Bknight2.png");
-  static Piece  Wpawn1=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wpawn1.png");
-  static Piece  Wpawn2=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wpawn2.png");
-  static Piece  Wpawn3=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wpawn3.png");
-  static Piece  Wpawn4=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wpawn4.png");
-  static Piece  Wpawn5=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wpawn5.png");
-  static Piece  Wpawn6=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wpawn6.png");
-  static Piece  Wpawn7=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wpawn7.png");
-  static Piece  Wpawn8=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Wpawn8.png");
-  static Piece  Bpawn1=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Bpawn1.png");
- static Piece   Bpawn2=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Bpawn2.png");
-  static Piece  Bpawn3=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Bpawn3.png");
-  static Piece  Bpawn4=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Bpawn4.png");
-  static Piece  Bpawn5=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Bpawn5.png");
-  static Piece  Bpawn6=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Bpawn6.png");
-  static Piece  Bpawn7=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Bpawn7.png");
-  static Piece  Bpawn8=new Piece("C:/Users/antre/OneDrive/Desktop/ChessPieces/Bpawn8.png");
+    static Piece Wrook1=new Piece("ChessPieces/Wrook1.png");
+   static Piece Wrook2=new Piece("ChessPieces/Wrook2.png");
+   static Piece Brook1=new Piece("ChessPieces/Brook1.png");
+   static Piece Brook2=new Piece("ChessPieces/Brook2.png");
+   static Piece WbishopW=new Piece("ChessPieces/WbishopW.png");
+   static Piece WbishopB=new Piece("ChessPieces/WbishopB.png");
+   static Piece BbishopB=new Piece("ChessPieces/BbishopB.png");
+   static Piece BbishopW=new Piece("ChessPieces/BbishopW.png");
+  static Piece  Wking=new Piece("ChessPieces/Wking.png");
+   static Piece Bking=new Piece("ChessPieces/Bking.png");
+   static Piece Wqueen=new Piece("ChessPieces/Wqueen.png");
+  static Piece  Bqueen=new Piece("ChessPieces/Bqueen.png");
+   static Piece Wknight1=new Piece("ChessPieces/Wknight1.png");
+   static Piece Wknight2=new Piece("ChessPieces/Wknight2.png");
+   static Piece Bknight1=new Piece("ChessPieces/Bknight1.png");
+   static Piece Bknight2=new Piece("ChessPieces/Bknight2.png");
+  static Piece  Wpawn1=new Piece("ChessPieces/Wpawn1.png");
+  static Piece  Wpawn2=new Piece("ChessPieces/Wpawn2.png");
+  static Piece  Wpawn3=new Piece("ChessPieces/Wpawn3.png");
+  static Piece  Wpawn4=new Piece("ChessPieces/Wpawn4.png");
+  static Piece  Wpawn5=new Piece("ChessPieces/Wpawn5.png");
+  static Piece  Wpawn6=new Piece("ChessPieces/Wpawn6.png");
+  static Piece  Wpawn7=new Piece("ChessPieces/Wpawn7.png");
+  static Piece  Wpawn8=new Piece("ChessPieces/Wpawn8.png");
+  static Piece  Bpawn1=new Piece("ChessPieces/Bpawn1.png");
+ static Piece   Bpawn2=new Piece("ChessPieces/Bpawn2.png");
+  static Piece  Bpawn3=new Piece("ChessPieces/Bpawn3.png");
+  static Piece  Bpawn4=new Piece("ChessPieces/Bpawn4.png");
+  static Piece  Bpawn5=new Piece("ChessPieces/Bpawn5.png");
+  static Piece  Bpawn6=new Piece("ChessPieces/Bpawn6.png");
+  static Piece  Bpawn7=new Piece("ChessPieces/Bpawn7.png");
+  static Piece  Bpawn8=new Piece("ChessPieces/Bpawn8.png");
     
     
     public Board() {
@@ -119,7 +119,7 @@ public class Board extends Panel implements MouseMotionListener{
         letters[5]="F";
         letters[6]="G";
         letters[7]="H";
-       // createRectangles();
+       
         
         
        Wrook1.getImage();
